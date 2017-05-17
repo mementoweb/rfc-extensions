@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Proposals for Uniform Access To Raw Mementos</title>
+  <style type="text/css">
+body {
+    height: 100%;
+    min-height: 100%;
+    margin: 0;
+}
+.container {
+  background: #ffffff; 
+  width: 980px;
+  margin: 0 auto;
+  }
+.table {
+	BORDER-RIGHT: #999999 1px solid;
+	BORDER-TOP: #999999 1px solid;
+	BORDER-LEFT: #999999 1px solid;
+	BORDER-BOTTOM: #999999 1px solid;
+	border-spacing: 2px;
+	}
+.bordertable {
+	BORDER-RIGHT: #000000 1px solid;
+	BORDER-TOP: #000000 1px solid;
+	BORDER-LEFT: #000000 1px solid;
+	BORDER-BOTTOM: #000000 1px solid;
+	border-spacing: 2px;
+}
+.trans_header_l_b {
+width: 10%; 
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+    text-align: center;
+      background-color: #ffffff;
+  font-family: Courier, sans-serif;
+    font-size:80%;
+}
+.trans_header_l_b2 {
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+    text-align: center;
+      background-color: #ffffff;
+  font-family: Courier, sans-serif;
+    font-size:80%;
+}
+.trans_header_r_b {
+  border-bottom: 1px solid black;
+  text-align: left;
+        background-color: #ffffff;
+  font-family: Courier, sans-serif;
+    font-size:80%;
+}
+.trans_header_r_b2 {
+  border-bottom: 1px solid black;
+  text-align: center;
+        background-color: #ffffff;
+  font-family: Courier, sans-serif;
+    font-size:80%;
+}
+.trans_row_l {
+width: 10%; 
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+    text-align: center;
+      background-color: #ffffff;
+  font-family: Courier, sans-serif;
+    font-size:80%;
+}
+.trans_row_l2 {
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+    text-align: center;
+      background-color: #ffffff;
+  font-family: Courier, sans-serif;
+    font-size:80%;
+}
+.trans_row_r {
+  text-align: left;
+    border-bottom: 1px solid black;
+        background-color: #ffffff;
+  font-family: Courier, sans-serif;
+    font-size:80%;
+}
+.trans_row_r2 {
+  text-align: center;
+    border-bottom: 1px solid black;
+        background-color: #ffffff;
+  font-family: Courier, sans-serif;
+    font-size:80%;
+}
+.trans_bot_l {
+width: 10%; 
+  border-right: 1px solid black;
+    text-align: center;
+      background-color: #ffffff;
+  font-family: Courier, sans-serif;
+    font-size:80%;
+}
+.trans_bot_l2 {
+  border-right: 1px solid black;
+    text-align: center;
+      background-color: #ffffff;
+  font-family: Courier, sans-serif;
+    font-size:80%;
+}
+.trans_bot_r {
+  text-align: left;
+        background-color: #ffffff;
+  font-family: Courier, sans-serif;
+    font-size:80%;
+}
+.trans_bot_r2 {
+width: 10%; 
+  text-align: center;
+        background-color: #ffffff;
+  font-family: Courier, sans-serif;
+    font-size:80%;
+}
+.th10 {
+  width: 10%;
+  background-color: #ffffff;
+  text-align: left;
+  }
+.th50 {
+  width: 50%;
+  background-color: #ffffff;
+  color: #666666;
+  text-align: center;
+  }
+  .th40 {
+  width: 40%;
+  background-color: #ffffff;
+  text-align: right;
+  }
+.t50_1 {
+  width: 50%;
+  background-color: #ffffff;
+  text-align: center;
+  }
+.t50_2 {
+  width: 50%;
+  background-color: #eeeeee;
+  text-align: center;
+  }
+.t100_1 {
+  width: 100%;
+  background-color: #eeeeee;
+  text-align: left;
+  }
+.t100_2 {
+  width: 100%;
+  background-color: #ffffff;
+  text-align: left;
+  }
+  .t100_3 {
+  width: 100%;
+  background-color: #ffffff;
+  text-align: center;
+  }
+  .t100_4 {
+  width: 100%;
+  background-color: #fcfaee;
+  text-align: left;
+  }
+.style3 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000;
+}
+.style4 { 
+  font-family: Arial, Helvetica, sans-serif; 
+  color: #000099;
+  }
+ .img.center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+ pre {
+	 white-space: pre-wrap;
+ }
+</style>
+</head>
+
+<body>
+<div class="container">
+
+ <div id="menu_top">
+        <iframe id="menu_top_frame" src="http://mementoweb.org/static/menu_top_mw.html" style="border: 0; width: 980px; height: 102px"></iframe>
+ </div>
+     
+        <div class="t100_1"><div class="style3"><h1>Proposals for Uniform Access to Raw Mementos</h1>
+         Last updated: May 11, 2017
+        </div>
+      </div>
+      
+  <br />
+
+  <!--
+<div class="style3">
+    <div class="t100_2"><b>Archived copy of this version:</b><br />
+    &nbsp;&nbsp;&nbsp;In draft, not yet published
+    </div>
+    <div class="t100_2"><b>Latest version:</b><br />
+    &nbsp;&nbsp;&nbsp;In draft, not yet published
+    </div>
+    <div class="t100_2"><b>Archived copy of prior version:</b><br />
+    &nbsp;&nbsp;&nbsp;In draft, not yet published
+    </div>
+    </div>
+  
+    <br />
+  <div class="style3">
+    <div class="t100_2"><b>Authored by:</b><br />
+    <div class="t100_2">
+    &nbsp;&nbsp;&nbsp;Shawn M. Jones - Los Alamos National Laboratory
+  </div></div>
+      <div class="t100_2">
+    &nbsp;&nbsp;&nbsp;Harihar Shankar - Los Alamos National Laboratory
+  </div>
+      <div class="t100_2">
+    &nbsp;&nbsp;&nbsp;Herbert Van de Sompel - Los Alamos National Laboratory
+  </div></div>
+  --> 
+  
+  
+
+  
+   <div class="style3">
+    <div class="t100_2">
+    <a id="referencing"><h2>Abstract</h2></a>
+    Most web archives augment mementos when presenting them to the user, often for usability or legal purposes. Research efforts and software projects need access the original captured &quot;raw&quot; mementos. So that users and software do not need to resort to archive-specific solutions, this document describes proposals for uniform methods of discovering raw mementos in a web archive.
+    </div></div>
+    
+  
+
+    <div class="t100_2"><div class="style3">
+    <h2>Table of Contents</h2>
+    </div></div>
+    <div class="t100_2"><div class="style3">
+    <a href="#motivation">Motivation</a>
+    </div></div>
+    <div class="t100_2"><div class="style3">
+    <a href="#rawness">Dimensions of Rawness</a>
+    </div></div>
+    <div class="t100_2"><div class="style3">
+    <a href="#uniform">Uniform Access Using the HTTP Prefer Header</a>
+    </div></div>
+    <div class="t100_2"><div class="style3">
+    &nbsp;&nbsp;<a href="#option1">Option 1: Uniform Access With the HTTP Prefer Header Against A TimeGate</a>
+    </div></div>
+    <div class="t100_2"><div class="style3">
+    &nbsp;&nbsp;&nbsp;&nbsp; <a href="#option1eval">Evaluation of Prefer Against TimeGate</a>
+    </div></div>
+    <div class="t100_2"><div class="style3">
+    &nbsp;&nbsp;<a href="#option2">Option 2: Uniform Access With the HTTP Prefer Header Against A Memento</a>
+    </div></div>
+    <div class="t100_2"><div class="style3">
+    &nbsp;&nbsp;&nbsp;&nbsp; <a href="#option2eval">Evaluation of Prefer Against Memento</a>
+    </div></div>
+    <div class="t100_2"><div class="style3">
+    <a href="#draftprefs">Current Draft Preferences List</a>
+    </div></div>
+    <div class="t100_2"><div class="style3">
+    <a href="#callforparticipation">Call For Participation</a>
+    </div></div>
+
+<!-- Motivation paragraph -->
+
+
+    <div class="t100_2"><div class="style3">
+    <a id="motivation"><h2>Motivation</h2></a>
+    </div></div>
+
+      <div class="t100_2"><div class="style3">
+		      Most web archives augment mementos when presenting them to the user, often for usability or legal purposes, as shown in Figures <a href="#figure1">1</a> and <a href="#figure2">2</a>. Additionally, some archives rewrite links to allow navigation within an archive, shown in <a href="#figure3">Figure 3</a>. This way the end user can visit other pages within the same archive from the same time period. Smaller archives, because of the size of their collections, do not benefit as much from these rewritten links. Of course, for Memento users, these rewritten links are not really required. 
+	      </div></div>
+	      <br>
+
+    <div class="t100_4">
+                <div class="style4">
+			<a id="figure1">Figure 1</a>: An example of the PRONI archive augmenting a memento for usability purposes. These augmentations, oulined in red, were not in the original resource.
+                </div>
+	<div style="text-align:center;">
+    <img src="proni-page-sm.png" />
+</div>
+    </div>
+
+<br />
+
+    <div class="t100_4">
+                <div class="style4">
+			<a id="figure2">Figure 2</a>: An example of augmented content from the UK National Web Archive, showing that the titles of pages are augmented with the string [ARCHIVED CONTENT] so that users will not confuse them with live search results.
+                </div>
+	<div style="text-align:center;">
+    <img src="archived-content-banner-memento-sm.png" />
+</div>
+    </div>
+
+<br />
+
+    <div class="t100_4">
+                <div class="style4">
+			<a id="figure3">Figure 3</a>: An example of rewritten links. The memento on the left has been augmented by the web archive and thus its links are altered to intra-archive URIs. The memento on the right has no such augmentations.
+                </div>
+	<div style="text-align:center;">
+    <img src="augmented-vs-raw-links-extended-sm.png" />
+</div>
+    </div>
+
+<br />
+
+      <div class="t100_2"><div class="style3">
+		      In many cases, access to the original, unaltered <b>&quot;raw&quot;</b> content is needed. This is, for example, the case for some research studies, like those at <a href="http://archivesunleashed.com/">Archives Unleashed</a>, that require the original HTTP response headers and the original unaltered content. Unaltered content is also needed to replay the original web content in various software projects, like <a href="http://timetravel.mementoweb.org/about/#reconstruct">TimeTravel Reconstruct</a>.
+	      </div></div>
+	      <br>
+  
+      <div class="t100_2"><div class="style3">
+Some web archives, such as the Internet Archive, preserve the original content and original headers that existed at the time of capture of a Memento. This content is currently available, but requires knowledge of the software and configuration of each archive in advance. Here we discuss a proposal for permitting uniform access to this content, regardless of archive configuration or software. Our proposal relies upon the Prefer header introduced in <a href="https://tools.ietf.org/html/rfc7240">RFC7240</a>. 
+	      </div></div>
+  
+<!-- TimeMap Basic Format and example -->
+
+    <div class="t100_2"><div class="style3">
+    <a id="rawness"><h2>Dimensions of Rawness</h2></a>
+    </div></div>
+
+ <div class="t100_2"><div class="style3">
+      As of this writing, some web archives provide the following dimensions of raw content for a memento:
+      <ul>
+	      <li><code>original-content</code></li>
+	      <li><code>original-links</code></li>
+	      <li><code>original-headers</code></li>
+      </ul>
+
+      </div></div>
+
+
+    <div class="t100_2"><div class="style3">
+    <a id="original-content"><h3>original-content</h3></a>
+    </div></div>
+
+ <div class="t100_2"><div class="style3">
+A mementos existing in the dimension of <em>original-content</em> contain the same content as existed on the web at the moment it was captured by the web archive. Some web archives add additional text so that a memento can be distinguished from a live page. Other web archives provide banners or navigational elements to assist their users. A memento satisfying the quality of original-content would have none of these additional features. The text within the page should match the text that existed in the page at the moment of capture.
+    </div></div>
+	<br>
+
+	<!--
+    <div class="t100_4">
+                <div class="style4">
+			<a id="figure1">Figure 1</a>: Mementos for the URI-R <code>http://www.mementoweb.org/guide/quick-intro/</code>. The Internet Archive has added a banner to the memento on the left. The memento on the right contains only <code>original-content</code> and hence no banner.
+                </div>
+    <img src="original-content-example-sm.png" />
+    </div>
+	-->
+
+    <div class="t100_2"><div class="style3">
+    <a id="original-links"><h3>original-links</h3></a>
+    </div></div>
+
+ <div class="t100_2"><div class="style3">
+A memento existing in the dimension of <em>original-links</em> contains links with the same paths and structure as were encountered on the web at the moment that the Memento was captured by the web archive. Some web archives change the links in a memento to intra-archive URIs. A memento satisfying the quality of original-links would have the same links that existed in the page at the moment of capture.
+    </div></div>
+    <br>
+
+    <!--
+    <div class="t100_4">
+                <div class="style4">
+			<a id="example1">Figure 2</a>: Mementos for the URI-R <code>http://www.mementoweb.org/guide/quick-intro/</code>. HTML containing a link pointing to the URI <code>http://tools.ietf.org/html/rfc5988</code> is highlighted in the source for both examples. On the left, the Internet Archive has modified the URI of this link to <code>https://web-beta.archive.org/web/20150401020026/http://tools.ietf.org/html/rfc5988</code>. The memento on the right contains only <code>original-links</code> and hence the HTML contains the original URI of <code>http://tools.ietf.org/html/rfc5988</code>.
+                </div>
+    <img src="original-links-example-sm.png" />
+    </div>
+    -->
+
+    <div class="t100_2"><div class="style3">
+    <a id="original-headers"><h3>original-headers</h3></a>
+    </div></div>
+
+ <div class="t100_2"><div class="style3">
+		 A memento existing in the dimension of <em>original-headers</em> presents the HTTP headers encountered during the capture of the memento. To avoid issues with presenting stale headers to HTTP clients, the headers are available in the memento's HTTP response in the form of <code>X-Archive-Orig-*</code>, where <code>*</code> is replaced by the original header (e.g., <code>X-Archive-Orig-Content-Type</code> corresponds to the original <code>Content-Type</code> from the time of capture).
+    </div></div>
+
+
+    <div class="t100_2"><div class="style3">
+    <a id="original-content"><h3>Existing Implementations</h3></a>
+    </div></div>
+
+ <div class="t100_2"><div class="style3">
+		 The original-content and original-links dimensions can currently be satisfied by <a href="http://www.netpreserve.org/openwayback">OpenWayback</a> any <a href="https://pypi.python.org/pypi/pywb/">pywb</a>'s <tt>id_</tt> and <tt>im_</tt> URI patterns (e.g., http://web.archive.org/web/20170415072537im_/bbc.com). The original-headers dimension is satisfied by <tt>im_</tt>, but not really by <tt>id_</tt>. The <tt>id_</tt> URI pattern produces the actual original headers, which are stale, and, as noted, may create issues with HTTP clients.
+    </div></div>
+
+ <div class="t100_2"><div class="style3">
+    </div></div>
+	
+ <div class="t100_2"><div class="style3">
+	Not all web archives utilize the same playback engine. The goal of this document is to propose a uniform method that does not require a user or software developer to create separate cases for each playback engine.
+    </div></div>
+
+<br />
+
+
+<!-- End Dimensions of Rawness -->
+
+    <div class="t100_2"><div class="style3">
+    <a id="uniform"><h2>Uniform Access With the HTTP Prefer Header</h2></a>
+    </div></div>
+
+
+ <div class="t100_2"><div class="style3">
+		 The <code>Prefer</code> header, specified in RFC 7240, provides HTTP clients with the ability to specify <em>preferences</em> to influence the server's response. We propose that Memento clients use the <code>Prefer</code> header to specify which dimensions of rawness they desire.
+    </div></div>
+
+    <br />
+
+ <div class="t100_2"><div class="style3">
+		 There are two components of the Memento infrastructure that can produce a memento that satisfies the user's preferences:
+		 <ul>
+			 <li>the TimeGate</li>
+			 <li>the Memento itself</li>
+		 </ul>
+		 This following sections discusses how each of these options would operate as well as their pros and cons.
+	 </div></div>
+
+<!-- Uniform Access With the HTTP Prefer Header and examples -->
+    <div class="t100_2"><div class="style3">
+    <a id="option1"><h3>Option 1: Uniform Access With the HTTP Prefer Header Against A TimeGate</h3></a>
+    </div></div>
+
+    <div class="t100_4">
+                <div class="style4">
+			<a id="figure4">Figure 4</a>: Simplified diagram of using the HTTP Prefer Header Against a TimeGate
+                </div>
+	<div style="text-align:center;">
+    <img src="simple-diagram-timegate.png" />
+</div>
+    </div>
+
+    <div class="t100_2"><div class="style3">
+		    With the <code>Prefer</code> header, a client can issue the following request to a URI-G if they prefer a raw memento in any of these dimensions. If a client desires a memento with the original-headers, then they would include <code>Prefer: original-headers</code> in the HTTP request, as shown in <a href="#example1">Example 1</a>.
+	    </div></div>
+<br />
+
+    <div class="t100_4">
+                <div class="style4">
+			<a id="example1">Example 1</a>: Request headers sent to a TimeGate asking for a memento with only <code>original-headers</code>
+                </div>
+                <br />
+    <pre>
+GET /timegate/http://www.example.com/ HTTP/1.1
+Host: an.archive.org
+Accept-Datetime: Sat, 24 Apr 2010 13:00:05 GMT
+Prefer: original-headers
+Connection: close
+    </pre>
+</div>
+
+    <div class="t100_2"><div class="style3">
+		    A client can also indicate multiple preferences, separated by commas. In <a href="#example2">Example 2</a>, a client issues the following request to a URI-G, stating their preference for all of these dimensions, using <code>Prefer: original-content, original-links, original-headers</code>.
+	    </div></div>
+
+<br />
+
+    <div class="t100_4">
+                <div class="style4">
+			<a id="example2">Example 2</a>: Request headers sent to a TimeGate asking for a memento with only <code>original-content</code>, <code>original-links</code>, and <code>original-headers</code>
+                </div>
+                <br />
+    <pre>
+GET /timegate/http://www.example.com/ HTTP/1.1
+Host: an.archive.org
+Accept-Datetime: Sat, 24 Apr 2010 13:00:05 GMT
+Prefer: original-content, original-links, original-headers
+Connection: close
+    </pre>
+</div>
+
+
+    <div class="t100_2"><div class="style3">
+		    The TimeGate would then use the <code>Preference-Applied</code> header to indicate which dimensions are satisfied by the URI-M in the <code>Location</code> header of its response. Seen in the HTTP response of <a href="#example3">Example 3</a>, the <code>Preference-Applied</code> header contains the value <code>original-content, original-links, original-headers</code>, indicating that the URI listed in the <code>Location</code> header satisfies these three dimensions.
+</div></div>
+
+<br />
+
+    <div class="t100_4">
+                <div class="style4">
+			<a id="example3">Example 3</a>: Response headers from a TimeGate for the request from Example 1
+                </div>
+                <br />
+    <pre>
+HTTP/1.1 302 Found
+Date: Mon, 08 May 2017 17:07:16 GMT
+Location: an.archive.org/all/20100414235211/http://www.example.org/
+Vary: Accept-Datetime, Prefer
+Last-Modified: Mon, 08 May 2017 17:06:44 GMT
+Link: &lt;http://www.example.org&gt;;rel="original",
+  &lt;http://an.archive.org/timemap/link/http://example.org&gt;;rel="timemap"; type="application/link-format"
+Preference-Applied: original-content, original-links, original-headers
+Content-Type: text/plain; charset=UTF-8
+Content-Length: 0
+Connection: close
+    </pre>
+</div>
+
+    <div class="t100_2"><div class="style3">
+		    The <code>Vary</code> header would also contain the <code>Prefer</code> value in addition to the <code>accept-datetime</code> value in order to indicate that clients can influence the TimeGate's response by using the <code>Prefer</code> header. This allows responses to be cached for requests that share the same options in their request headers.
+	    </div></div>
+
+	    <br />
+
+    <div class="t100_2"><div class="style3">
+	The next request would be a normal GET to the URI-M in the <code>Location</code> header.
+</div></div>
+
+<br />
+
+    <div class="t100_2"><div class="style3">
+		    Memento clients not seeking raw mementos will just submit requests as usual, not including the <code>Prefer</code> header.
+</div></div>
+
+
+    <div class="t100_2"><div class="style3">
+    <a id="option1eval"><h3>Evaluation of Prefer Against TimeGate</h3></a>
+    </div></div>
+
+
+    <div class="t100_2"><div class="style3">
+		    <strong>Pros:</strong> 
+		    <ul>
+			    <li>Use of Prefer against a TimeGate allows for all negotiation to be handled at the same resource.</li>
+		</ul>
+</div></div>
+
+<br />
+
+    <div class="t100_2"><div class="style3">
+		    <strong>Cons:</strong>
+		    <ul>
+			    <li>This solution tightly integrates the solution for raw mementos with the existing Memento framework. Archives will need to expose the dimensions of rawness that they support so that Memento aggregators can then evaluate the mementos offered by each archive.</li>
+			    <li>Because the TimeGate must redirect to a URI-M that satisfies the preferred dimensions of rawness, mementos containing different dimensions of rawness will need to be identified by different URI-Ms.</li>
+			    <li>With negotiation at the TimeGate, this option increases the complexity of the TimeMaps that supply data for aggregators and TimeGates. What if an archive only supports some of the dimensions of rawness for a subset of its holdings?</li>
+
+			    <li>RFC 7089 states &quot;It is the TimeGate server's responsibility to honor (or not) such content negotiation, and in doing so it MUST always first select a Memento that meets the user agent's datetime preference, and then consider honoring regular content negotiation for it.&quot; What about the dimensions of rawness? If a TimeGate receives a preference for <em>original-headers</em> and other elements of content negotiation, which takes precedence and how should the TimeGate respond? Among mementos from different archives, which answer should an aggregator provide?</li>
+			    <li>Is negotiation needed for TimeMaps? If each dimension exists at a different URI-M. How does an aggregator supply a TimeMap with a certain subset of dimensions? Is it sufficient to mix dimensions if not all are present? Should there be <em>strict TimeMaps</em> that only list URI-Ms that specifically adhere to the stated preferences, even if there are raw mementos that provide more preferences? Do TimeMaps now need to specify dimensions of rawness along each memento entry?
+</div></div>
+
+    <div class="t100_2"><div class="style3">
+    <a id="option2"><h3>Option 2: Uniform Access With the HTTP Prefer Header Against Mementos</h3></a>
+    </div></div>
+
+    <div class="t100_4">
+                <div class="style4">
+			<a id="figure5">Figure 5</a>: Simplified diagram of using the HTTP Prefer Header Against a Memento
+                </div>
+	<div style="text-align:center;">
+    <img src="simple-diagram-memento.png" />
+</div>
+    </div>
+
+
+    <div class="t100_2"><div class="style3">
+		    Instead of asking the TimeGate to redirect to a raw memento, a client could issue the following request directly to a URI-M if they prefer a raw memento in any of these dimensions. In this scenario, a TimeGate plays no role in the generating the response. If a client desires a memento with the original-headers, then they would include <code>Prefer: original-headers</code> in the HTTP request, as shown in <a href="#example4">Example 4</a>. As with Option 1, the client can also supply multiple preferences, separated by commas.
+	    </div></div>
+	    <br>
+
+    <div class="t100_4">
+                <div class="style4">
+			<a id="example4">Example 4</a>: Request headers sent directly to a URI-M asking for a memento with <code>original-headers</code> and <code>original-content</code>
+                </div>
+                <br />
+    <pre>
+GET /web/20160721152544/http://www.example.com/ HTTP/1.1
+Host: an.archive.org
+Prefer: original-headers, original-content
+Connection: close
+    </pre>
+</div>
+
+<br />
+
+    <div class="t100_2"><div class="style3">
+		    A server would then use the <code>Preference-Applied</code> header in its response to indicate which dimensions it had satisfied from the request of this URI-M. Seen in the HTTP response of <a href="#example5">Example 5</a>, the <code>Preference-Applied</code> header contains the value <code>original-content, original-links, original-headers</code>, indicating that the response satisfies these three dimensions.
+</div></div>
+    
+  
+<br />
+
+
+    <div class="t100_4">
+                <div class="style4">
+			<a id="example5">Example 5</a>: Response headers for a memento located at <code>http://an.archive.org/web/20160721152544/http://www.example.com/</code> 
+                </div>
+                <br />
+    <pre>
+HTTP/1.1 200 OK
+Server: Tengine/2.1.0
+Date: Thu, 21 Jul 2016 17:34:15 GMT
+Content-Type: text/html;charset=utf-8
+Content-Length: 109672
+Connection: keep-alive
+Memento-Datetime: Thu, 21 Jul 2016 15:25:44 GMT
+Content-Location: /web/20100424130005_raw/http://www.example.com/
+Vary: prefer
+Preference-Applied: original-content, original-links, original-headers
+Link: &lt;http://www.example.com/&gt;; rel="original", 
+&nbsp;&nbsp;&lt;http://an.archive.org/web/timemap/link/http://www.example.com/&gt;; rel="timemap"; type="application/link-format",
+&nbsp;&nbsp;&lt;http://an.archive.org/web/http://www.example.com/&gt;; rel="timegate"
+X-Archive-Orig-content-type: text/html; charset=utf-8
+X-Archive-Orig-vary: Accept-Encoding
+X-Archive-Orig-connection: close
+X-Archive-Orig-date: Thu, 21 Jul 2016 15:25:44 GMT
+X-Archive-Orig-content-length: 109672
+    </pre>
+</div> 
+
+    <div class="t100_2"><div class="style3">
+To Satisfy the <code>original-headers</code> preference, the server also includes the <code>X-Archive-Orig-*</code> headers that contain the values of the original headers at the time of capture.
+</div></div> 
+      <br>
+
+    <div class="t100_2"><div class="style3">
+The server also includes <code>Vary: prefer</code>, indicating that clients can influence the Memento's response by using the <code>Prefer</code> header. The response can then be cached for requests that have the same options in the request headers.
+</div></div> 
+      <br>
+
+    <div class="t100_2"><div class="style3">
+Optionally, a web archive may include the <code>Content-Location</code> response header to indicate the location of the specific URI-M that satisfies these preferences, if it exists.
+</div></div> 
+<br>
+
+    <div class="t100_2"><div class="style3">
+If a server can only apply some of the preferences, then that the server only lists which preferences have been applied to the Memento in the <code>Preference-Applied</code> header. 
+</div></div> 
+      <br>
+
+
+    <div class="t100_2"><div class="style3">
+    <a id="draftpres"><h4>Server Defaults</h4></a>
+    </div></div>
+
+    <div class="t100_2"><div class="style3">
+      If the client issues no <code>Prefer</code> header in the request, then the server can still use the <code>Preference-Applied</code> header to indicate which preferences are met by default. Again, the <code>Vary</code> header indicates that clients can influence the response via the use of the <code>Prefer</code> request header. The <code>Content-Location</code> header indicates the URI-M of the memento. The response headers for such a default memento from the Internet Archive are shown below. Because the Internet Archive supplies the original-headers on default requests, we see that value used for the <code>Preference-Applied</code> header.
+	    </div></div>
+
+	    <br />
+
+    <div class="t100_4">
+                <div class="style4">
+			<a id="example6">Example 6</a>:
+			Default response headers for a memento located at <code>http://an.archive.org/web/20160721152544/http://www.example.com/</code>
+                </div>
+                <br />
+    <pre>
+HTTP/1.1 200 OK
+Server: Tengine/2.1.0
+Date: Thu, 21 Jul 2016 16:17:09 GMT
+Content-Type: text/html;charset=utf-8
+Content-Length: 127383
+Connection: keep-alive
+Memento-Datetime: Thu, 21 Jul 2016 15:25:44 GMT
+Content-Location: /web/20100424130005/http://www.example.com/
+Vary: prefer
+Preference-Applied: original-headers
+Link: &lt;http://www.example.com/&gt;; rel="original", 
+&nbsp;&nbsp;&lt;http://an.archive.org/web/timemap/link/http://www.example.com/&gt;; rel="timemap"; type="application/link-format",
+&nbsp;&nbsp;&lt;http://an.archive.org/web/http://www.example.com/&gt;; rel="timegate"
+X-Archive-Orig-content-type: text/html; charset=utf-8
+X-Archive-Orig-vary: Accept-Encoding
+X-Archive-Orig-connection: close
+X-Archive-Orig-date: Thu, 21 Jul 2016 15:25:44 GMT
+X-Archive-Orig-content-length: 109672
+</pre>
+    </div>
+
+
+<!-- End Uniform Access With HTTP Prefer Header and Example -->
+
+
+    <div class="t100_2"><div class="style3">
+    <a id="option2eval"><h3>Evaluation of Prefer Against Memento</h3></a>
+    </div></div>
+
+    <div class="t100_2"><div class="style3">
+	<strong>Pros:</strong>
+		<ul>
+			<li>This solution is decoupled from the Memento Protocol.</li>
+			<li>If an archive adds a new dimension at a later date, then it only needs to be supported by those specific mementos with this new dimension.</li>
+			<li>Requests to a single URI-M can result in responses containing different dimensions of rawness, thus the archive does not need to provide special TimeMaps for different dimensions, or combinations of dimensions.</li>
+			<li>This option saves on the number of requests if iterating through a TimeMap. For each URI-M, a client has one HTTP transaction instead of two. In option 1, the client would need to negotiate with the TimeGate for each URI-M, and then request the URI-M. With option 2, the client only needs to issue a request to each URI-M.</li>
+			<li>Archives control what information on rawness that they expose.</li>
+		</ul>
+    </div></div>
+
+    <div class="t100_2"><div class="style3">
+		    <strong>Cons:</strong>
+		    <ul>
+			    <li>Clients will need to separately send the <code>Prefer</code> header to the memento after negotiating with the TimeGate, possibly negotiating a second time.</li>
+			    <li>The systems used by web archives must support this <code>Prefer</code> feature for all mementos.</li>
+		    </ul>
+    </div></div>
+
+    <div class="t100_2"><div class="style3">
+    <a id="draftpres"><h2>Current Draft Preferences List</h2></a>
+    </div></div>
+
+    <div class="t100_2"><div class="style3">
+These are evolving solutions. Thinking about mementos in terms of preferences opens up the possibilities of addressing additional use cases outside of the raw use case. The list below contains the preferences that have been discussed so far.
+</div></div>
+
+
+    <div class="t100_2"><div class="style3">
+<ul>
+	<li><code>original-content</code> - mentioned in this document</li>
+	<li><code>original-links</code> - mentioned in this document</li>
+	<li><code>original-headers</code> - mentioned in this document</li>
+	<li><code>screenshot</code> - used to indicate that the Memento in the response is in fact an image of the rendered web page, with an image content type, such as image/png or image/jpg</li>
+	<li><code>derivative-document</code> - used to indicate that the Memento in the response is a PDF or MHT version of the rendered web page, could also be a superset of screenshot</li>
+	<li><code>signed</code> - used to indicate that the entity returned is digitally signed, perhaps for integrity verification</li>
+</ul>
+
+    </div></div>
+
+    <div class="t100_2"><div class="style3">
+    <a id="callforparticipation"><h2>Call for Participation</h2></a>
+    </div></div>
+
+    <div class="t100_2"><div class="style3">
+		    Please contribute further to this proposal by coninuing the discussion at <a href="https://github.com/mementoweb/rfc-extensions">the Memento RFC Extensions GitHub repository</a>. This document will be updated as this proposal matures.
+    </div></div>
+
+    <div class="t100_2"><div class="style3">
+    </div></div>
+
+    <br /><br /><br /><br />
+
+<div id="menu_bottom" style="background: #eee; height: 60px; bottom: 0; position: relative; width: 980px; margin: 0;">
+<iframe src="http://mementoweb.org/static/menu_bottom_cc.html" style="border: 0; width: 980px; height: 55px"></iframe>
+</div> 
+
+
+  
+  </div>
+  
+
+</body>
+
+</html>
